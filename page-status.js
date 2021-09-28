@@ -45,3 +45,9 @@ jQuery(window).on('load', function() {
   window.loaded = 1;
   jQuery(window).trigger('loaded');
 });
+
+
+jQuery(document).ready(function ($) {
+    "use strict";
+    $html.addClass('page-ready js-ready');
+});
